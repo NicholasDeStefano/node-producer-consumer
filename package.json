@@ -1,0 +1,30 @@
+{
+  "name": "node-producer-consumer",
+  "version": "0.1.0",
+  "description": "The Producer/Consumer problem in NodeJS",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustinboston/node-producer-consumer.git"
+  },
+  "author": "Dustin Boston",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/dustinboston/node-producer-consumer/issues"
+  },
+  "homepage": "https://github.com/dustinboston/node-producer-consumer",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "~1.0.1",
+    "loadtest": "~1.2.11",
+    "really-need": "~1.6.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "connect": "^3.3.5",
+    "winston": "~1.0.0"
+  }
+}
